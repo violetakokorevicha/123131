@@ -17,7 +17,7 @@ c1 = int(input("Ievadi c1:"))
 def function_rtu():
     if a1 + b1 + c1 == 180:
       print("Trijsturis ir derīgs:")
-    else:
+    if a1 + b1 + c1 != 180:
       print("Trijsturis nav derīgs")
     if a1 == 90 or b1 == 90 or c1 == 90:
       print("Taisnlenka trijsturis")
